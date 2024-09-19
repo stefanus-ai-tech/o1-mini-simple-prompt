@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Security Pentest Roadmap</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <!-- AOS CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pentest Roadmap</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#overview"
+                >Overview</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#roadmap">Roadmap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resources">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero d-flex align-items-center justify-content-center">
+      <div class="text-center text-white" data-aos="fade-up">
+        <h1 class="display-4">Cyber Security Pentest Roadmap</h1>
+        <p class="lead">
+          Your guide to becoming a proficient Penetration Tester
+        </p>
+        <a href="#roadmap" class="btn btn-primary btn-lg">Get Started</a>
+      </div>
+    </header>
+
+    <!-- Overview Section -->
+    <section id="overview" class="container my-5">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2>Overview</h2>
+        <p>
+          Understand the essential steps and skills required to excel in
+          penetration testing.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Foundational Knowledge</h5>
+              <p class="card-text">
+                Learn the basics of networking, operating systems, and security
+                principles.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Tools & Techniques</h5>
+              <p class="card-text">
+                Master the tools and methods used in modern penetration testing.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Advanced Skills</h5>
+              <p class="card-text">
+                Develop advanced skills in exploit development, scripting, and
+                report writing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="bg-light py-5">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h2>Roadmap</h2>
+          <p>Step-by-step guide to becoming a successful penetration tester.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item" data-aos="fade-right">
+            <div class="timeline-icon"><i class="bi bi-book"></i></div>
+            <div class="timeline-content">
+              <h4>Step 1: Education</h4>
+              <p>
+                Obtain a degree or certifications in cybersecurity or a related
+                field.
+              </p>
+              <button
+                type="button"
+                class="btn btn-sm btn-primary mt-2"
+                data-bs-toggle="modal"
+                data-bs-target="#step1Modal">
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-left">
+            <div class="timeline-icon"><i class="bi bi-laptop"></i></div>
+            <div class="timeline-content">
+              <h4>Step 2: Learn Essential Tools</h4>
+              <p>
+                Familiarize yourself with tools like Nmap, Metasploit, Burp
+                Suite, and Wireshark.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-right">
+            <div class="timeline-icon"><i class="bi bi-code-slash"></i></div>
+            <div class="timeline-content">
+              <h4>Step 3: Gain Practical Experience</h4>
+              <p>
+                Participate in labs, Capture The Flag (CTF) competitions, and
+                real-world projects.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-left">
+            <div class="timeline-icon"><i class="bi bi-shield-lock"></i></div>
+            <div class="timeline-content">
+              <h4>Step 4: Specialize</h4>
+              <p>
+                Choose a specialization such as web application pentesting,
+                network pentesting, or mobile security.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-right">
+            <div class="timeline-icon"><i class="bi bi-briefcase"></i></div>
+            <div class="timeline-content">
+              <h4>Step 5: Professional Development</h4>
+              <p>
+                Obtain advanced certifications like OSCP, CEH, or CISSP and seek
+                employment in the field.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Step 1 Modal -->
+    <div
+      class="modal fade"
+      id="step1Modal"
+      tabindex="-1"
+      aria-labelledby="step1ModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-primary text-white">
+            <h5 class="modal-title" id="step1ModalLabel">Step 1: Education</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Education is the first crucial step in your pentest roadmap. You
+              can pursue a degree in Computer Science, Information Security, or
+              related fields. Additionally, obtaining certifications like
+              CompTIA Security+, Certified Ethical Hacker (CEH), or Offensive
+              Security Certified Professional (OSCP) can significantly enhance
+              your knowledge and credibility.
+            </p>
+            <ul>
+              <li>Degree Programs (BSc, MSc in Cyber Security)</li>
+              <li>Certifications (CEH, OSCP, CISSP)</li>
+              <li>Online Courses and Workshops</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resources Section -->
+    <section id="resources" class="container my-5">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2>Resources</h2>
+        <p>Books, courses, and websites to help you on your journey.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Books</h5>
+              <ul>
+                <li>“The Web Application Hacker's Handbook”</li>
+                <li>
+                  “Penetration Testing: A Hands-On Introduction to Hacking”
+                </li>
+                <li>“Metasploit: The Penetration Tester's Guide”</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Online Courses</h5>
+              <ul>
+                <li>Offensive Security Certified Professional (OSCP)</li>
+                <li>Certified Ethical Hacker (CEH)</li>
+                <li>Udemy’s “The Complete Penetration Testing Bootcamp”</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Websites</h5>
+              <ul>
+                <li>OWASP</li>
+                <li>Hack The Box</li>
+                <li>PortSwigger</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="text-center mb-4" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Have questions or need guidance? Reach out to us!</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your Name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="name@example.com" />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="3"
+                  placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      &copy; 2024 Cyber Security Pentest Roadmap. All rights reserved.
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
